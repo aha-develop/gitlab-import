@@ -2,6 +2,10 @@
 
 This [Aha! Develop](https://www.aha.io/develop/overview) extension enables importing from GitLab issues.
 
+## Demo
+
+https://user-images.githubusercontent.com/8016/117139518-71f44900-ae00-11eb-90c9-f640aba3223f.mp4
+
 ## Working on the extension
 
 Install [`aha-cli`](https://github.com/aha-app/aha-cli):
