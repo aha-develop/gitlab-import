@@ -1,0 +1,29 @@
+{
+  "name": "aha-develop.gitlab-import",
+  "description": "GitLab Importer",
+  "version": "1.0.0",
+  "author": "Aha! (support@aha.io)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aha-develop/gitlab-import.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "aha-cli": "^1.9.3"
+  },
+  "ahaExtension": {
+    "cspSources": ["https://gitlab.com"],
+    "contributes": {
+      "importers": {
+        "gitlab": {
+          "entryPoint": "src/import.tsx",
+          "title": "GitLab Import"
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "graphql": "^15.5.0",
+    "graphql-request": "^3.4.0"
+  }
+}
