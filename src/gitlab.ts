@@ -163,3 +163,4 @@ export async function findIssues(projectPath: string, cursor?: string) {
 
   return { records, endCursor };
 }
+
