@@ -22,7 +22,7 @@
         "gitlab": {
           "icon": "media/gitlab-icon-rgb.svg",
           "entryPoint": "src/import.tsx",
-          "title": "GitLab Import"
+          "title": "GitLab"
         }
       }
     }
