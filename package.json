@@ -8,13 +8,15 @@
     "url": "https://github.com/aha-develop/gitlab-import.git"
   },
   "license": "MIT",
-  "devDependencies": {
-    "aha-cli": "^1.9.3"
-  },
+  "devDependencies": {},
   "icon": "media/gitlab-icon-rgb.svg",
   "ahaExtension": {
-    "cspSources": ["https://gitlab.com"],
-    "files": ["media/*.svg"],
+    "cspSources": [
+      "https://gitlab.com"
+    ],
+    "files": [
+      "media/*.svg"
+    ],
     "contributes": {
       "importers": {
         "gitlab": {

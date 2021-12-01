@@ -53,6 +53,6 @@ importer.on({ action: "listCandidates" }, async ({ filters, nextPage }) => {
 });
 
 importer.on({ action: "importRecord" }, async ({ importRecord, ahaRecord }) => {
-  (ahaRecord as any).description = importRecord.description;
+  (ahaRecord as any).description = `${importRecord.description}<p><a href='${importRecord.url}'>View on GitLab</a></p>`;
   await ahaRecord.save();
 });
